@@ -1,0 +1,1 @@
+let apiErApi = new TempApi.ErApi();import TempApi from '../src/index';document.getElementById('ih0h').onclick = () => {apiErApi.getAller((error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); }});};
