@@ -1,0 +1,1 @@
+let apiTestApi = new TempApi.TestApi();import TempApi from '../src/index';let test = new TempApi.Test();document.getElementById('itn87').onclick = () => {apiTestApi.createtest( test, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); }});};
