@@ -13,8 +13,8 @@
 
 
 import ApiClient from './ApiClient';
-import Er from './model/Er';
-import ErApi from './api/ErApi';
+import Test from './model/Test';
+import TestApi from './api/TestApi';
 
 
 /**
@@ -56,16 +56,16 @@ export {
     ApiClient,
 
     /**
-     * The Er model constructor.
-     * @property {module:model/Er}
+     * The Test model constructor.
+     * @property {module:model/Test}
      */
-    Er,
+    Test,
 
     /**
-    * The ErApi service constructor.
-    * @property {module:api/ErApi}
+    * The TestApi service constructor.
+    * @property {module:api/TestApi}
     */
-    ErApi
+    TestApi
 };
 
 export default {
@@ -76,14 +76,14 @@ export default {
     ApiClient,
 
     /**
-     * The Er model constructor.
-     * @property {module:model/Er}
+     * The Test model constructor.
+     * @property {module:model/Test}
      */
-    Er,
+    Test,
 
     /**
-    * The ErApi service constructor.
-    * @property {module:api/ErApi}
+    * The TestApi service constructor.
+    * @property {module:api/TestApi}
     */
-    ErApi
+    TestApi
 };

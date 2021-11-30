@@ -586,7 +586,7 @@ class ApiClient {
         return [
             {
               'url': "http://localhost:8080/v1",
-              'description': "Local server",
+              'description': "local host",
             }
       ];
     }
